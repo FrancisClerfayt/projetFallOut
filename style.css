@@ -55,14 +55,14 @@ footer {
 }
 
 .rotation {
-  display: block;
-  height: 40px;
-  width: 100px;
-  transform: rotate(-90deg);
   background-color: #F0AD2F;
   color: #fff;
+  display: block;
   font-weight: bold;
+  padding: 15px 0;
   text-align: center;
+  transform: rotate(-90deg);
+  width: 100px;
 }
 
 .textContainer {
@@ -81,7 +81,7 @@ footer {
 .vertical-bar {
   background-color: #F0AD2F;
   float: left;
-  height: 250px;
+  height: 280px;
   margin: 25px 0;
   width: 8px;
 }
@@ -89,6 +89,7 @@ footer {
 .text-right {
   width: 90%;
   float: right;
+  padding: 0 40px;
 }
 
 .engrenage {
@@ -102,6 +103,9 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  bottom: 25px;
+  padding: 18%;
+  position: relative;
 }
 
 .guy {
@@ -112,7 +116,9 @@ footer {
 }
 
 .guy > img {
+  bottom: 25px;
   height: 100%;
+  position: relative;
 }
 
 .uppercase {
@@ -148,4 +154,54 @@ footer {
 
 .center > span {
   font-size: 18px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .rotationContainer {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .rotationContainer {
+    padding-top: 80px;
+  }
+  .textContainer {
+    font-size: 1em;
+  }
+  .vertical-bar {
+    margin: 15px 0;
+    height: 350px;
+  }
+  .text-right {
+    width: 85%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 375px;
+  }
+  .bottomHeader {
+    width: 100%;
+  }
+  .rotationContainer {
+    padding-top: 80px;
+  }
+  .rotation {
+    font-size: 1.5em;
+    width: 140px;
+  }
+  .textContainer {
+    margin-left: 10%;
+    width: 70%;
+  }
+  .text-right {
+    width: 85%;
+    margin-bottom: 50px;
+  }
+  .vertical-bar {
+    height: 400px;
+  }
 }
