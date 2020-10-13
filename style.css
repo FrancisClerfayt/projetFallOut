@@ -1,0 +1,146 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  background: url('images/Fallout-img.jpg');
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  height: 350px;
+}
+
+h1, h2 {
+  color: #fff;
+  padding-left: 5%;
+}
+
+h1 {
+  padding-top: 8%;
+}
+
+h2 {
+  padding-bottom: 8%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #151515;
+}
+
+.container {
+  /* width: 60%;
+  margin: 0 20%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.halfHeader {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.rotationContainer {
+  width: 20%;
+}
+
+.rotation {
+  display: block;
+  height: 40px;
+  width: 100px;
+  transform: rotate(-90deg);
+  background-color: #F0AD2F;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textContainer {
+  width: 80%;
+}
+
+.weight-100 {
+  font-weight: 100;
+}
+
+.yellow {
+  color: #F0AD2F;
+}
+
+.vertical-bar {
+  float: left;
+  background-color: #F0AD2F;
+  height: 500px;
+  width: 8px;
+}
+
+.text-right {
+  width: 90%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.engrenage {
+  background: url('images/Fallout-icon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33%;
+}
+
+.guy {
+  width: 33%;
+  height: 200px;
+}
+
+.guy > img {
+  height: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.textFooter {
+  width: 33%;
+}
+
+.handWriting {
+  text-align: center;
+  font-family: cursive;
+  color: #fff;
+  font-size: 32px;
+}
+
+.center {
+  padding-top: 15%;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.center > span {
+  font-size: 18px;
+
+}
