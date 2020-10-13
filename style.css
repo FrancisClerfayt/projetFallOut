@@ -1,12 +1,14 @@
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: 0;
-  background: url('images/Fallout-img.jpg');
-  background-size: cover;
+* {
   font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-image: url('images/Fallout-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
   height: 350px;
+  margin: 0;
 }
 
 h1, h2 {
@@ -15,46 +17,40 @@ h1, h2 {
 }
 
 h1 {
+  font-size: 3em;
   padding-top: 8%;
 }
 
 h2 {
+  font-size: 2em;
   padding-bottom: 8%;
 }
 
 main {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  clear: both;
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   background-color: #151515;
-}
-
-.container {
-  /* width: 60%;
-  margin: 0 20%; */
+  background-size: cover;
+  clear: both;
   display: flex;
-  flex-direction: column;
 }
 
 .halfHeader {
   width: 50%;
-  display: flex;
-  flex-direction: column;
+  float: left;
 }
 
 .bottomHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  width: 100%;
 }
 
 .rotationContainer {
+  float: left;
+  left: 0;
+  padding: 40px 0;
+  position: relative;
   width: 20%;
 }
 
@@ -70,6 +66,7 @@ footer {
 }
 
 .textContainer {
+  float: left;
   width: 80%;
 }
 
@@ -82,29 +79,36 @@ footer {
 }
 
 .vertical-bar {
-  float: left;
   background-color: #F0AD2F;
-  height: 500px;
+  float: left;
+  height: 250px;
+  margin: 25px 0;
   width: 8px;
 }
 
 .text-right {
   width: 90%;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
+  float: right;
 }
 
 .engrenage {
-  background: url('images/Fallout-icon.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #151515;
+  float: left;
   width: 33%;
 }
 
+.engrenage > p {
+  background-image: url(images/Fallout-icon.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .guy {
-  width: 33%;
+  background-color: #151515;
+  float: left;
   height: 200px;
+  width: 33%;
 }
 
 .guy > img {
@@ -124,7 +128,9 @@ footer {
 }
 
 .textFooter {
+  background-color: #151515;
   width: 33%;
+  float: left;
 }
 
 .handWriting {
@@ -142,5 +148,4 @@ footer {
 
 .center > span {
   font-size: 18px;
-
 }
