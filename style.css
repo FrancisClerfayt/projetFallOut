@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url('images/Fallout-img.jpg');
+  background-image: url('images/fallout-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   clear: both;
@@ -34,7 +34,8 @@ footer {
   background-color: #151515;
   background-size: cover;
   clear: both;
-  display: flex;
+  display: block;
+  height: 300px;
 }
 
 .halfHeader {
@@ -80,16 +81,17 @@ footer {
 
 .vertical-bar {
   background-color: #F0AD2F;
+  border-radius: 4px;
   float: left;
   height: 280px;
-  margin: 25px 0;
+  margin: 25px 0 25px 30px;
   width: 8px;
 }
 
 .text-right {
   width: 90%;
   float: right;
-  padding: 0 40px;
+  padding: 25px 40px;
 }
 
 .engrenage {
@@ -99,7 +101,7 @@ footer {
 }
 
 .engrenage > p {
-  background-image: url(images/Fallout-icon.png);
+  background-image: url('images/fallout-icon.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -112,6 +114,7 @@ footer {
   background-color: #151515;
   float: left;
   height: 200px;
+  text-align: center;
   width: 33%;
 }
 
